@@ -1,0 +1,19 @@
+@media screen and (max-width: 870px){
+
+    .escrito {
+        text-align: center;
+    }
+
+    img {
+        display: none;
+    }
+
+    .botao {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .cadastro{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+}
