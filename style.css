@@ -10,6 +10,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+    height: 100vh;
+}
+
 #titulo {
   margin-top: 70px;
 }
@@ -70,10 +74,10 @@ img {
     width: 100px;
     margin: 15px 10px;
     background-color: blueviolet;
-    color: white;
     border-radius: 5px;
     box-shadow: 0px 0px 5px #693d96;
     border: none;
+    color: white;
 }
 
 .botao:hover {
