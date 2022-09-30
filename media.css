@@ -1,5 +1,9 @@
 @media screen and (max-width: 880px){
 
+    #titulo {
+        margin-top: 50px;
+    }
+
     h1 {
         font-size: 1.7em;
     }
