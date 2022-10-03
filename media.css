@@ -1,15 +1,19 @@
 @media screen and (max-width: 880px){
 
     #titulo {
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
     h1 {
         font-size: 1.7em;
     }
 
+    main {
+        height: 950px;
+    }
+
     #conteudo {
-        height: 700px;
+        height: 760px;
         width: 90%;
         flex-direction: column-reverse;
     }
@@ -20,11 +24,16 @@
     }
 
     .escrito {
-        height: 420px;
+        height: 460px;
         text-align: center;
     }
 
     .cadastro {
         margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .caixa {
+        margin-left: 0px;
     }
 }
