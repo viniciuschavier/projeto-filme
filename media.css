@@ -1,5 +1,13 @@
 @media screen and (max-width: 880px){
 
+    body {
+        width: 100vw;
+    }
+
+    main {
+        width: 100vw;
+    }
+
     #titulo {
         margin-top: 10px;
     }
