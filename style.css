@@ -7,7 +7,7 @@
     padding: 0px;
 }
 
-body {
+body, html {
     background: linear-gradient(to right, #693d96, #311552);
     font-family: 'Poppins', sans-serif;
     width: 100vw;
@@ -15,6 +15,7 @@ body {
 
 main {
     width: 100vw;
+    height: 563px;
 }
 
 #titulo {
