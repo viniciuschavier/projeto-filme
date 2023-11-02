@@ -15,20 +15,20 @@
             <h1 class="titulo">Receba todas as novidades sobre o cinema!</h1>
         </section>
         <section id="conteudo">
-            <div class="escrito">
-                <h2 class="conteudo-escrito">Não perca nenhuma novidade!</h2>
-                <p class="conteudo-escrito">Quer receber novidades e até mesmo notificações quando os filmes serem lançados?<br><strong>Então se cadastre aqui embaixo.</strong></p>
+            <div id="escrito">
+                <h2 id="titu">Não perca nenhuma novidade!</h2>
+                <p id="paragrafo">Quer receber novidades e até mesmo notificações quando os filmes serem lançados?<br><strong>Então se cadastre aqui embaixo.</strong></p>
             
                 <label class="cadastro">Nome</label>
                 <input class="caixa" type="text" name="nome" id="nome">
            
-                <label class="cadastro">Sobrenome</label>
-                <input class="caixa" type="text" name="sobrenome" id="sobrenome">
-            
                 <label class="cadastro">E-mail</label>
                 <input class="caixa" type="email" name="email" id="email">
             
-                <input class="botao" type="submit" value="Enviar >">
+                <label class="cadastro">Senha</label>
+                <input class="caixa" type="password" name="senha" id="senha">
+                
+                <input class="botao" type="submit" value="Enviar >" onclick="enviar()">
             </div>
             
             <div class="img">
@@ -36,5 +36,6 @@
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -49,15 +49,15 @@ img {
     display: block;
 }
 
-.escrito {
+#escrito {
     border-radius: 8px;
-    padding:0px;
+    padding: 0px;
     width: 300px;
     height: 450px;
 }
 
-.conteudo-escrito {
-    color:white;
+#titu, #paragrafo {
+    color: white;
     padding: 10px;
 }
 
@@ -102,4 +102,21 @@ img {
     width: 400px;
     background: url(./imagens/cinema.png) no-repeat;
     background-size: cover;
+}
+
+#res {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#titu2 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
 }
